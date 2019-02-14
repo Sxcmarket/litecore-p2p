@@ -1,6 +1,6 @@
 {
   "name": "sexcore-p2p",
-  "version": "1.1.312",
+  "version": "1.1.313",
   "description": "Interface to the sexcoin P2P network for sexcore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
@@ -56,13 +56,13 @@
     "url": "https://github.com/sxcmarket/sexcore-p2p.git"
   },
   "dependencies": {
-    "sexcore-lib": "git://github.com/sxcmarket/sexcore-lib.git",
+    "sexcore-lib": "^0.13.1",
     "bloom-filter": "^0.2.0",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "sexcore-build": "git://github.com/sxcmarket/sexcore-build.git",
+    "sexcore-build": "^0.5.50",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10",
